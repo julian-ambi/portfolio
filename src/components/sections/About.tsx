@@ -137,7 +137,7 @@ export default function About({ isVisible }: AboutProps) {
                   </li>
                   {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>ウェブサイト:</strong> <span>julian.mok28@outlook.com</span>
+                    <strong>ウェブサイト:</strong> <span>julian.mok.ambition@gmail.com</span>
                   </li> */}
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
@@ -161,7 +161,7 @@ export default function About({ isVisible }: AboutProps) {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>メール:</strong> <span>julian.mok28@outlook.com</span>
+                    <strong>メール:</strong> <span>julian.mok.ambition@gmail.com</span>
                   </li>
                 </ul>
               </div>

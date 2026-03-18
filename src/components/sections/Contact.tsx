@@ -88,7 +88,7 @@ export default function Contact({ isVisible }: ContactProps) {
             <div className="info-box">
               <i className="bx bx-envelope"></i>
               <h3>メール</h3>
-              <p>julian.mok28@outlook.com</p>
+              <p>julian.mok.ambition@gmail.com</p>
             </div>
           </div>
 
