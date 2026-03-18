@@ -99,7 +99,7 @@ export default function PortfolioDetailClient({ project }: Props) {
       </div>
 
       <div className="credits">
-        Designed by <a href="https://bootstrapmade.com/">LeonOhlin</a>
+        Designed by <a href="https://bootstrapmade.com/">Julian Mok</a>
       </div>
     </main>
   );

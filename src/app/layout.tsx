@@ -9,11 +9,11 @@ import "swiper/css/pagination";
 import "@/styles/style.css";
 
 export const metadata: Metadata = {
-  title: "Leon Ohlin",
+  title: "Julian Mok",
   description: "Python & Java Full-Stack Developer Portfolio",
   icons: {
-    icon: "/img/favicon.png",
-    apple: "/img/apple-touch-icon.png",
+    icon: "/img/favicon.svg",
+    apple: "/img/favicon.svg",
   },
 };
 

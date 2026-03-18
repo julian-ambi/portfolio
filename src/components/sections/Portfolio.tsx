@@ -109,14 +109,6 @@ export default function Portfolio({ isVisible }: PortfolioProps) {
                   <p>{project.category}</p>
                   <div className="portfolio-links">
                     <a
-                      href={project.lightboxImage}
-                      data-gallery="portfolioGallery"
-                      className="portfolio-lightbox"
-                      title={project.title}
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a
                       href="#"
                       title="詳細を見る"
                       onClick={(e) => {
