@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+
+const resend = new Resend("re_HcBc6vcC_AkPRPqLQzz5Wk9Acaf2fAu9X");
 
 export async function POST(req: NextRequest) {
   try {
@@ -12,8 +15,13 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // TODO: Integrate with an email service (e.g., Resend, SendGrid, Nodemailer)
-    console.log("Contact form submission:", { name, email, subject, message });
+    await resend.emails.send({
+      from: `Portfolio Contact <contact@hxopii.resend.app>`,
+      to: "julian.mok.ambition@gmail.com",
+      subject: `${subject}`,
+      replyTo: email,
+      text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`,
+    });
 
     return NextResponse.json({ success: true });
   } catch {
